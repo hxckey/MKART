@@ -1,13 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Title } from '../../components/Title';
 
-export default function Homepage() {
+export function Homepage() {
     return (
         <>
-
-        <header>
-            MARIO KART RANDOMISER
-        </header>
-
+            <Title />
         </>
     )
 }
