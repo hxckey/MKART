@@ -1,0 +1,22 @@
+button {
+    cursor: pointer;
+    font-family: 'New Super Mario Font U', sans-serif;
+    text-decoration: none;
+    border: none;
+    font-size: 1.4rem;
+    /* find a mario related image to be the button */
+    /* background: url('./mariokartitem.png') no-repeat top left; */
+    background-color: #f49ac1;
+    color: #dde128;
+    border-radius: 2px;
+    border: 2px ridge #dde128;
+    height: 2rem;
+    width: 12rem;
+    margin: 5px;
+}
+
+button:hover {
+    border-color: #dde128;
+    border-style: ridge;
+    background-color: #ef4d8f;
+}

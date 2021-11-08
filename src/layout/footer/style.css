@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    display: block;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    align-content: space-around;
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: 'Mario & Luigi', sans-serif;
+    background-color: #44af35;
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+}
+
+nav {
+    font-family: 'Mario & Luigi', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: #44af35;
+    height: 3rem;
+    padding-top: 1rem;
+}
+
+.currentpage {
+    color: red;
+    font-weight: bolder;
+}
