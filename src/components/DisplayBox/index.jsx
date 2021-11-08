@@ -4,15 +4,15 @@ import './style.css';
 
 export function Display() {
     return (
-        <div class="displaydiv">
+        <div className="displaydiv">
             <h3>Player X</h3>
-            <p class="display">Character</p>
+            <p className="display">Character</p>
             <img src="" alt="an image of " />
-            <p class="display">Kart</p>
+            <p className="display">Kart</p>
             <img src="" alt="an image of " />
-            <p class="display">Wheels</p>
+            <p className="display">Wheels</p>
             <img src="" alt="an image of " />
-            <p class="display">Glider</p>
+            <p className="display">Glider</p>
             <img src="" alt="an imge of " />
             <Button />
         </div>
