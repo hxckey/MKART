@@ -17,4 +17,4 @@ export function Display() {
             <Button />
         </div>
     )
-}
+};

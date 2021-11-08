@@ -7,4 +7,4 @@ export function Title() {
             <h1>Mario Kart Randomizer</h1>
         </header>
     )
-}
+};

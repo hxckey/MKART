@@ -1,6 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { Title } from '../../components/Title'
+import { Title } from '../../components/Title';
 
 
 export function Header() {
@@ -13,4 +12,4 @@ export function Header() {
 
         </>
     )
-}
+};

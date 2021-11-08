@@ -7,4 +7,4 @@ export function Button() {
             Randomise!
         </button>
     )
-}
+};
