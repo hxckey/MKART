@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Homepage } from './Pages/home/Homepage';
+import  { Homepage } from './Pages/home/Homepage';
 import { Randomiser } from './Pages/randomise/Randomise';
 
 export default function App() {
@@ -30,4 +30,4 @@ export default function App() {
 
         </>
     )
-}
+};
