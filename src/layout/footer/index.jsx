@@ -2,28 +2,16 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './style.css';
 
-export function Footer() {
+export const Footer = () => {
     return (
         <>
-
             <footer>
-                <p>
-                    made by George Hickey | 2021
-                </p>
-                <ul>
-                    <li>
-                        <NavLink to='/' activeClassName='selected-link'>
-                            home
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to='randomise' activeClassName='selected-link'>
-                            randomiser
-                        </NavLink>
-                    </li>
-                </ul>
+                <nav>
+                    <NavLink activeClassName="currentpage" exact to="/">Homepage</NavLink>
+                    <NavLink activeClassName="currentpage" to="/randomise">Randomiser</NavLink>
+                </nav>
+                <p>Made by George Hickey - 2021</p>
             </footer>
-
         </>
     )
-}
+};
