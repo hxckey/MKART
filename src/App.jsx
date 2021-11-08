@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import  { Homepage } from './Pages/Home/Homepage';
-import { Randomiser } from './Pages/Randomise/Randomise';
+import  { Homepage } from './Pages/Home';
+import { Randomiser } from './Pages/Randomise';
 
 export default function App() {
     return (
