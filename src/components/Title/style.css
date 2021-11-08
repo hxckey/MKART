@@ -1,3 +1,12 @@
 h1 {
     font-family: 'New Super Mario Font U', sans-serif;
+    color: #e62310;
+    font-size: 5rem;
+}
+
+header {
+    background-color: #44af35;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
