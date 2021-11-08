@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import  { Homepage } from './Pages/Home';
-import { Randomiser } from './Pages/Randomise';
+import * as Pages from './Pages';
 
 export default function App() {
     return (
@@ -9,11 +8,11 @@ export default function App() {
 
         <Switch>
             <Route exact path='/'>
-                <Homepage />
+                <Pages.Homepage />
             </Route>
             
             <Route path='/randomise'>
-                <Randomiser />
+                <Pages.Randomiser />
             </Route>
 
             <Route>
