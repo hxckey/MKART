@@ -8,9 +8,8 @@
     color: #dde128;
     border-radius: 2px;
     border: 2px ridge #dde128;
-    height: 3rem;
-    width: 15rem;
-    margin: 5px;
+    margin: 0 40%;
+    padding: 0.4rem;
 }
 
 #getstarted:hover {
