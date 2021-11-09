@@ -1,19 +1,19 @@
-button {
+#getstarted {
     cursor: pointer;
     font-family: 'Mario & Luigi', sans-serif;
     text-decoration: none;
     border: none;
-    font-size: 1.4rem;
+    font-size: 3rem;
     background-color: #f49ac1;
     color: #dde128;
     border-radius: 2px;
     border: 2px ridge #dde128;
-    height: 2rem;
-    width: 12rem;
+    height: 3rem;
+    width: 15rem;
     margin: 5px;
 }
 
-button:hover {
+#getstarted:hover {
     border-color: #dde128;
     border-style: ridge;
     background-color: #ef4d8f;
