@@ -11,6 +11,7 @@ button {
     height: 2rem;
     width: 12rem;
     margin: 5px;
+    grid-row: 10;
 }
 
 button:hover {

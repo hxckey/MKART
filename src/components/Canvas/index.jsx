@@ -4,7 +4,7 @@ import './style.css';
 export function Canvas() {
     return (
         <>
-            <canvas></canvas>
+            <canvas id="racetrack"></canvas>
         </>
     )
 }

@@ -8,7 +8,6 @@
     color: #dde128;
     border-radius: 2px;
     border: 2px ridge #dde128;
-    margin: 0 40%;
     padding: 0.4rem;
 }
 
@@ -16,4 +15,10 @@
     border-color: #dde128;
     border-style: ridge;
     background-color: #ef4d8f;
+}
+
+#startdiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }

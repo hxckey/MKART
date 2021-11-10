@@ -8,7 +8,7 @@
 }
 
 img {
-    display: block;
+    /* display: block; */
     width: 75px;
     height: 75px;
     border: 2px dotted black;
@@ -20,7 +20,8 @@ img {
 .displaydiv {
     width: 25vw;
     justify-content: center;
-    display: inline-block;
+    display: grid; 
+    grid-template-rows: auto auto 75px auto 75px auto 75px auto 75px auto;
     font-family: 'Mario & Luigi', sans-serif;
 }
 
@@ -30,4 +31,40 @@ h3 {
     margin: 0;
     padding: 0;
     padding-bottom: 20px;
+}
+
+#playernumber {
+    grid-row: 1;
+}
+
+#charHeading {
+    grid-row: 2;
+}
+
+#charImg {
+    grid-row: 3;
+}
+
+#kartHeading {
+    grid-row: 4;
+}
+
+#kartImg {
+    grid-row: 5;
+}
+
+#wheelHeading {
+    grid-row: 6;
+}
+
+#wheelImg {
+    grid-row: 7;
+}
+
+#gliderHeading {
+    grid-row: 8;
+}
+
+#gliderImg {
+    grid-row: 9;
 }
