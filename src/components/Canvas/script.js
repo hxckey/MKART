@@ -1,4 +1,4 @@
-const canvas = document.getElementById("mycanvas");
+const canvas = document.getElementById("racetrack");
 const context = canvas.getContext("2d");
 
 // const height = window.innerHeight;
@@ -19,5 +19,5 @@ class Circle {
     }
 }
 
-let circle1 = new Circle(100, 100, 50, "pink");
+let circle1 = new Circle(500, 125, 50, "pink");
 circle1.draw(context);
