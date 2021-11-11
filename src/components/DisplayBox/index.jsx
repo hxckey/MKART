@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from '../Button ';
+import { useDispatch } from 'react-redux';
 import './style.css';
 
 export function Display() {
+
+    const [ character, setCharacter ] = useState('')
+    const [ kart, setKart ] = useState('')
+    const [ wheels, setWheels ] = useState('')
+    const [ glider, setGlider] = useState('')
+    const dispatch = useDispatch()
+
+
+
     return (
         <div className="displaydiv">
             <h3 id="playerNumber">Player X</h3>
