@@ -9,6 +9,7 @@ export function Canvas(props) {
         
         const racetrack = canvasRef.current
         const context = racetrack.getContext('2d') 
+        racetrack.width = window.innerWidth
 
 
         class Circle {
@@ -30,10 +31,10 @@ export function Canvas(props) {
             }
         
             update() {
-                context.clearRect(0, 0, 1000, 250)
+                context.clearRect(0, 0, racetrack.width, 250)
                 this.draw(context);
                 
-                if ( (this.xpos + this.radius) > 750){
+                if ( (this.xpos + this.radius) > racetrack.width){
                     this.dx = -this.dx;
                 }
         
@@ -62,7 +63,7 @@ export function Canvas(props) {
 
     return (
         <>
-            <canvas ref={canvasRef} {...props} id="racetrack"></canvas>
+            <canvas ref={canvasRef} {...props} id="racetrack"  height="250px"></canvas>
 
         </>
     )
