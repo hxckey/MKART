@@ -17,6 +17,10 @@ img {
     justify-content: center;
 }
 
+#display-box {
+    display: relative;
+}
+
 .displaydiv {
     width: 25vw;
     justify-content: center;
