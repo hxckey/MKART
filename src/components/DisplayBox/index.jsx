@@ -11,7 +11,7 @@ export function Display() {
     const [ glider, setGlider] = useState('')
     const dispatch = useDispatch()
 
-
+    
 
     return (
         <div className="displaydiv">
