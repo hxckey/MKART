@@ -1,0 +1,6 @@
+canvas {
+    border-top: 6px dotted black;
+    border-bottom: 6px dotted black;
+    margin: 3rem 0;
+    background-color: gray;
+}
